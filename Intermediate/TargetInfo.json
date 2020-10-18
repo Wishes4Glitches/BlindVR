@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BlindVR",
+			"Path": "D:\\GitHub\\BlindVR\\Source\\BlindVR.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BlindVREditor",
+			"Path": "D:\\GitHub\\BlindVR\\Source\\BlindVREditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BlindVR-1458.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GitHub\BlindVR\Intermediate\Build\Win64\BlindVREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\Ball.cpp.obj"
+"D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\BlindVR.cpp.obj"
+"D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\Ball.gen.cpp.obj"
+"D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\BlindVR.init.gen.cpp.obj"
+"D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\Default.rc2.res"
+/OUT:"D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR-1458.lib"
+/INCLUDE:IMPLEMENT_MODULE_BlindVR

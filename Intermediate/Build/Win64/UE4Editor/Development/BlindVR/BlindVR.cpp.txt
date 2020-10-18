@@ -1,0 +1,2 @@
+D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\Definitions.BlindVR.h
+D:\GitHub\BlindVR\Source\BlindVR\BlindVR.h

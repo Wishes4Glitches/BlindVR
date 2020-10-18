@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BlindVR.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7C3B89E1-378A-4E04-8FDD-B72F1D81320A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BlindVR.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BlindVREditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{C25F73DB-C318-46B7-93D3-61B52BD1F6A7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BlindVR">
+      <UniqueIdentifier>{D1BA7D59-D12C-4390-A6C3-8B44CCFEDC4E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BlindVR\AIControllerCPP.cpp">
+      <Filter>Source\BlindVR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BlindVR\AIControllerCPP.h">
+      <Filter>Source\BlindVR</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\BlindVR\BlindVR.Build.cs">
+      <Filter>Source\BlindVR</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BlindVR\BlindVR.cpp">
+      <Filter>Source\BlindVR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BlindVR\BlindVR.h">
+      <Filter>Source\BlindVR</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BlindVR\NPCCPP.cpp">
+      <Filter>Source\BlindVR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BlindVR\NPCCPP.h">
+      <Filter>Source\BlindVR</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BlindVR\Waypoint.cpp">
+      <Filter>Source\BlindVR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BlindVR\Waypoint.h">
+      <Filter>Source\BlindVR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
