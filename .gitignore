@@ -1,2 +1,13 @@
+<<<<<<< HEAD
 .vs
 Intermediate
+=======
+
+.vs/BlindVR/v16/Browse.VC.db
+.vs/BlindVR/v16/ipch/AutoPCH/1e8fe24cde84bb72/TASKGRAPH.ipch
+.vs/BlindVR/v16/ipch/AutoPCH/5bafbd2224ac40ca/CONTROLLER.ipch
+.vs/BlindVR/v16/ipch/AutoPCH/649482ec5a830647/NPCCPP.ipch
+.vs/BlindVR/v16/ipch/AutoPCH/a2461905c1319246/BALL.ipch
+.vs/BlindVR/v16/ipch/AutoPCH/cc7b4db8113a1430/AICONTROLLERCPP.ipch
+Intermediate/Build/Win64/BlindVREditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
+>>>>>>> master
