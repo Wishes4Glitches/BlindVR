@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeNPCCPP() {}
 	BLINDVR_API UClass* Z_Construct_UClass_ANPCCPP();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_BlindVR();
+	BLINDVR_API UClass* Z_Construct_UClass_AWaypoint_NoRegister();
 // End Cross Module References
 	void ANPCCPP::StaticRegisterNativesANPCCPP()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeNPCCPP() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NextWaypoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NextWaypoint;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeNPCCPP() {}
 		{ "ModuleRelativePath", "NPCCPP.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPCCPP_Statics::NewProp_NextWaypoint_MetaData[] = {
+		{ "Category", "NPCCPP" },
+		{ "ModuleRelativePath", "NPCCPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPCCPP_Statics::NewProp_NextWaypoint = { "NextWaypoint", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANPCCPP, NextWaypoint), Z_Construct_UClass_AWaypoint_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPCCPP_Statics::NewProp_NextWaypoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCPP_Statics::NewProp_NextWaypoint_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPCCPP_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPCCPP_Statics::NewProp_NextWaypoint,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANPCCPP_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANPCCPP>::IsAbstract,
 	};
@@ -54,11 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeNPCCPP() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ANPCCPP_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCPP_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ANPCCPP_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ANPCCPP_Statics::Class_MetaDataParams))
@@ -72,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeNPCCPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPCCPP, 839985583);
+	IMPLEMENT_CLASS(ANPCCPP, 3842132021);
 	template<> BLINDVR_API UClass* StaticClass<ANPCCPP>()
 	{
 		return ANPCCPP::StaticClass();

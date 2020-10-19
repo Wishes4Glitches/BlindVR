@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "AIControllerCPP.h"
+#include "NPCCPP.h"
+#include "Waypoint.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
 
@@ -49,6 +51,12 @@ void AAIControllerCPP::OnPossess(APawn * Pawn_)
 void AAIControllerCPP::Tick(float DeltaSeconds_)
 {
 	Super::Tick(DeltaSeconds_);
+
+	ANPCCPP* Bot = Cast<ANPCCPP>(GetPawn());
+	if (Bot->NextWaypoint != nullptr)
+	{
+		MoveToActor(Bot->NextWaypoint, 5.0f);
+	}
 }
 
 FRotator AAIControllerCPP::GetControlRotation() const

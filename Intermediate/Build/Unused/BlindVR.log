@@ -1,13 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\BlindVR).
   Building BlindVREditor...
   Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] AIControllerCPP.gen.cpp
-    [2/5] AIControllerCPP.cpp
-    [3/5] UE4Editor-BlindVR.lib
+  Building 4 actions with 8 processes...
+    [1/4] Waypoint.cpp
+    [2/4] UE4Editor-BlindVR.lib
        Creating library D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.lib and object D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.exp
-    [4/5] UE4Editor-BlindVR.dll
+    [3/4] UE4Editor-BlindVR.dll
        Creating library D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.suppressed.lib and object D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.suppressed.exp
-    [5/5] BlindVREditor.target
-  Total time in Parallel executor: 28.75 seconds
-  Total execution time: 29.27 seconds
+    [4/4] BlindVREditor.target
+  Total time in Parallel executor: 189.82 seconds
+  Total execution time: 190.82 seconds

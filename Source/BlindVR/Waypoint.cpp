@@ -3,6 +3,7 @@
 
 #include "Waypoint.h"
 #include "AIControllerCPP.h"
+#include "NPCCPP.h"
 
 // Sets default values
 AWaypoint::AWaypoint()
@@ -35,10 +36,10 @@ void AWaypoint::Tick(float DeltaTime)
 
 void AWaypoint::OnPlayerEnter(UPrimitiveComponent* overlapComponent_, AActor* otherActor_, UPrimitiveComponent* otherComponent_, int32 otherBodyIndex_, bool bFromSweep_, const FHitResult& SweepResult_)
 {
-	AAIControllerCPP* Character = nullptr;
+	ANPCCPP* Character = nullptr;
 	if (otherActor_ != nullptr)
 	{
-		Character = Cast<AAIControllerCPP>(otherActor_);
+		Character = Cast<ANPCCPP>(otherActor_);
 		if (Character != nullptr)
 		{
 			Character->NextWaypoint = NextWaypoint;

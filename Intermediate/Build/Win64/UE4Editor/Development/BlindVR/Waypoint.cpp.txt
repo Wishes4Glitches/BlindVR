@@ -46,3 +46,9 @@ D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Public\VisualLogger/Visual
 D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
 D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Inc\BlindVR\AIControllerCPP.generated.h
+D:\GitHub\BlindVR\Source\BlindVR\NPCCPP.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Inc\BlindVR\NPCCPP.generated.h
