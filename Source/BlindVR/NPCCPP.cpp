@@ -15,6 +15,10 @@ ANPCCPP::ANPCCPP()
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 600.0f, 0.0f);
+
+	Box = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
+	//Box->OnComponentBeginOverlap
+	//Box->OnComponentBeginOverlap.AddDynamic(this, ANPCCPP::OnBoxBeginOverlap);
 }
 
 // Called when the game starts or when spawned
@@ -27,7 +31,6 @@ void ANPCCPP::BeginPlay()
 void ANPCCPP::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
@@ -37,3 +40,10 @@ void ANPCCPP::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
+void ANPCCPP::OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor && (OtherActor != this) && OtherComp)
+	{
+
+	}
+}

@@ -1,8 +1,9 @@
 {
 	"SourceFiles": [
 		"D:\\GitHub\\BlindVR\\Source\\BlindVR\\BlindVR.Build.cs",
+		"D:\\GitHub\\BlindVR\\Plugins\\TestPlugin\\Source\\TestPlugin\\TestPlugin.Build.cs",
 		"D:\\GitHub\\BlindVR\\Source\\BlindVR.Target.cs",
 		"D:\\GitHub\\BlindVR\\Source\\BlindVREditor.Target.cs"
 	],
-	"EngineVersion": "4.25.3"
+	"EngineVersion": "4.25.4"
 }

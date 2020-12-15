@@ -1,12 +1,1 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\BlindVR).
-  Building BlindVREditor...
-  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] Waypoint.cpp
-    [2/4] UE4Editor-BlindVR.lib
-       Creating library D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.lib and object D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.exp
-    [3/4] UE4Editor-BlindVR.dll
-       Creating library D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.suppressed.lib and object D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Development\BlindVR\UE4Editor-BlindVR.suppressed.exp
-    [4/4] BlindVREditor.target
-  Total time in Parallel executor: 189.82 seconds
-  Total execution time: 190.82 seconds
+﻿MSBUILD : error MSB4166: Child node "2" exited prematurely. Shutting down. Diagnostic information may be found in files in "C:\Users\taery\AppData\Local\Temp\" and will be named MSBuild_*.failure.txt. This location can be changed by setting the MSBUILDDEBUGPATH environment variable to a different directory.

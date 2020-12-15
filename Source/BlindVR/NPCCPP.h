@@ -18,6 +18,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class AWaypoint* NextWaypoint;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	class UBoxComponent* Box;
 
 protected:
 	// Called when the game starts or when spawned
@@ -26,6 +28,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION()
+	void OnBoxBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

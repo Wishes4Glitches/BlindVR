@@ -10,8 +10,8 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 25,
-		"PatchVersion": 3,
-		"Changelist": 13942748,
+		"PatchVersion": 4,
+		"Changelist": 14469661,
 		"CompatibleChangelist": 13144385,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
@@ -42,6 +42,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/ElectronicNodes/Binaries/Win64/UE4Editor-ElectronicNodes.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/Binaries/Win64/UE4Editor-TestPlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/Binaries/Win64/UE4Editor-TestPlugin.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4373,6 +4381,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -4780,6 +4792,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/ElectronicNodes/ElectronicNodes.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/TestPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BlindVR.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FEFBD6D2-8530-45E1-9638-BEFDD50CC0CA}</UniqueIdentifier>
+      <UniqueIdentifier>{E6334934-AE82-478A-945D-76FD809DDFC2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BlindVR.Target.cs">
       <Filter>Source</Filter>
@@ -11,9 +11,10 @@
     <None Include="..\..\Source\BlindVREditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{5340ABDF-5F54-4383-BE93-C2907BE9B36C}</UniqueIdentifier>
+      <UniqueIdentifier>{4DB6858E-7EB0-4B45-9B5D-B44943823B18}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,8 +34,44 @@
     <None Include="..\..\Config\DefaultScalability.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{79679EA5-2130-4074-8297-2402482B5C14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin">
+      <UniqueIdentifier>{1B54E9EE-934B-4D99-8192-26ACCC8D6812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin\Source">
+      <UniqueIdentifier>{48454888-ABC2-4C0F-95FA-4A039704D540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin">
+      <UniqueIdentifier>{0F0A0B44-A9AE-41D9-9ADC-83AAABDF4ED3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestPlugin\Source\TestPlugin\TestPlugin.Build.cs">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Private">
+      <UniqueIdentifier>{633AAD9F-4CB2-4631-B21C-750129F9B6C5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Private\TestPlugin.cpp">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Public">
+      <UniqueIdentifier>{3714B1C1-D754-4EC0-8058-A1290BA2848F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\TestPlugin\TestPlugin.uplugin">
+      <Filter>Plugins\TestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TestPlugin\Resources">
+      <UniqueIdentifier>{81C3E4E0-8E0A-4E86-8CA1-B0347109FE11}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestPlugin\Resources\Icon128.png">
+      <Filter>Plugins\TestPlugin\Resources</Filter>
+    </None>
     <Filter Include="Source\BlindVR">
-      <UniqueIdentifier>{56B08B12-7A11-48B1-A918-A24CFB9EC4D9}</UniqueIdentifier>
+      <UniqueIdentifier>{01FAFC1E-644F-49D6-9713-6B5AABB657D0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BlindVR\AIControllerCPP.cpp">
       <Filter>Source\BlindVR</Filter>
@@ -55,6 +92,12 @@
       <Filter>Source\BlindVR</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\BlindVR\NPCCPP.h">
+      <Filter>Source\BlindVR</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BlindVR\PluginActor.cpp">
+      <Filter>Source\BlindVR</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BlindVR\PluginActor.h">
       <Filter>Source\BlindVR</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\BlindVR\Waypoint.cpp">

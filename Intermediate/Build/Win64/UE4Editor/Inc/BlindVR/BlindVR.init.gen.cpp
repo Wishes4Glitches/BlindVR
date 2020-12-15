@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeBlindVR_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x069BF7E7,
-				0x000DBDC6,
+				0xDAAA41A3,
+				0xEE561C4F,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
