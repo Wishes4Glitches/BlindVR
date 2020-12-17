@@ -1,0 +1,1741 @@
+﻿Log file open, 12/15/20 22:07:18
+LogInit: Display: Running engine for game: BlindVR
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.817809
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin ElectronicNodes
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin TestPlugin
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: AMD Radeon RX 5600 XT
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Unreal Engine/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.16-03.07.22:094][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.16-03.07.22:094][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.12.16-03.07.22:095][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.12.16-03.07.22:096][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.12.16-03.07.22:097][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.12.16-03.07.22:098][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.12.16-03.07.22:099][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.12.16-03.07.22:099][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.12.16-03.07.22:099][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.12.16-03.07.22:104][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.12.16-03.07.22:105][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:106][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.16-03.07.22:106][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.16-03.07.22:107][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.16-03.07.22:108][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:108][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:161][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:161][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.16-03.07.22:161][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.16-03.07.22:161][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.16-03.07.22:162][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.16-03.07.22:163][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.16-03.07.22:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.16-03.07.22:165][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.16-03.07.22:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.16-03.07.22:167][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.16-03.07.22:174][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.16-03.07.22:174][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.16-03.07.22:182][  0]LogHAL: Display: Platform has ~ 16 GB [17133326336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.16-03.07.22:183][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.16-03.07.22:183][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:183][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.16-03.07.22:183][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.16-03.07.22:183][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:183][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.12.16-03.07.22:183][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.12.16-03.07.22:184][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.16-03.07.22:185][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.16-03.07.22:186][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.16-03.07.22:187][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitHub/BlindVR/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.16-03.07.22:188][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.16-03.07.22:189][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitHub/BlindVR/Saved/Config/Windows/Engine.ini]
+[2020.12.16-03.07.22:209][  0]LogInit: Computer: TAERYNS-PC
+[2020.12.16-03.07.22:209][  0]LogInit: User: Wishes
+[2020.12.16-03.07.22:209][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.16-03.07.22:209][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.16-03.07.22:210][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.12.16-03.07.22:210][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.16-03.07.22:210][  0]LogMemory: Process Physical Memory: 119.92 MB used, 119.92 MB peak
+[2020.12.16-03.07.22:210][  0]LogMemory: Process Virtual Memory: 101.41 MB used, 101.41 MB peak
+[2020.12.16-03.07.22:210][  0]LogMemory: Physical Memory: 7899.53 MB used,  8440.09 MB free, 16339.61 MB total
+[2020.12.16-03.07.22:210][  0]LogMemory: Virtual Memory: 5187.65 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2020.12.16-03.07.22:235][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.16-03.07.23:547][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.16-03.07.23:569][  0]LogInit: Using OS detected language (en-US).
+[2020.12.16-03.07.23:569][  0]LogInit: Using OS detected locale (en-CA).
+[2020.12.16-03.07.23:643][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.16-03.07.24:073][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.16-03.07.24:611][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.16-03.07.24:611][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.16-03.07.25:748][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.16-03.07.25:748][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.16-03.07.25:748][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.16-03.07.25:844][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5600 XT' (Feature Level 11_0)
+[2020.12.16-03.07.25:844][  0]LogD3D11RHI:       6104/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.12.16-03.07.25:852][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.16-03.07.25:852][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.16-03.07.25:852][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.16-03.07.25:868][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.16-03.07.25:868][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2020.12.16-03.07.25:868][  0]LogWindows: EnumDisplayDevices:
+[2020.12.16-03.07.25:868][  0]LogWindows:    0. 'AMD Radeon RX 5600 XT' (P:1 D:1)
+[2020.12.16-03.07.25:869][  0]LogWindows:    1. 'AMD Radeon RX 5600 XT' (P:0 D:1)
+[2020.12.16-03.07.25:869][  0]LogWindows:    2. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2020.12.16-03.07.25:870][  0]LogWindows:    3. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2020.12.16-03.07.25:870][  0]LogWindows:    4. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2020.12.16-03.07.25:871][  0]LogWindows:    5. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2020.12.16-03.07.25:871][  0]LogWindows:    6. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2020.12.16-03.07.25:872][  0]LogWindows:    7. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2020.12.16-03.07.25:872][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.12.16-03.07.25:872][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5600 XT
+[2020.12.16-03.07.25:872][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.11.2 (internal:27.20.14501.18003, unified:27.20.14501.18003)
+[2020.12.16-03.07.25:872][  0]LogD3D11RHI:      Driver Date: 11-13-2020
+[2020.12.16-03.07.25:872][  0]LogRHI: Texture pool is 3735 MB (70% of 5336 MB)
+[2020.12.16-03.07.26:024][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.16-03.07.26:024][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.16-03.07.26:024][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.16-03.07.26:280][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2020.12.16-03.07.26:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.16-03.07.26:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.16-03.07.26:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.16-03.07.26:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.16-03.07.26:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.16-03.07.26:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.16-03.07.26:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.16-03.07.26:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.16-03.07.26:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.16-03.07.26:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.16-03.07.26:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.16-03.07.27:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.16-03.07.27:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.16-03.07.27:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.16-03.07.27:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.16-03.07.27:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.16-03.07.27:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.16-03.07.27:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.16-03.07.27:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.16-03.07.27:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.16-03.07.27:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.16-03.07.27:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.16-03.07.27:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.16-03.07.27:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.16-03.07.27:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.16-03.07.27:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.16-03.07.27:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.16-03.07.27:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.16-03.07.27:762][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.16-03.07.28:020][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.16-03.07.29:171][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../GitHub/BlindVR/Intermediate/Shaders/WorkingDirectory/17932/).
+[2020.12.16-03.07.29:171][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/taery/AppData/Local/Temp/UnrealShaderWorkingDir/9AFA165B4C52EDBC2C0E2195447D8C2F/'.
+[2020.12.16-03.07.29:189][  0]LogXGEController: Cleaning working directory: C:/Users/taery/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.16-03.07.29:189][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.16-03.07.29:189][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.16-03.07.29:190][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.16-03.07.30:926][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.16-03.07.31:134][  0]LogDerivedDataCache: Loaded boot cache 0.21s 79MB C:/Users/taery/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.16-03.07.31:134][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/taery/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.16-03.07.31:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/BlindVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.16-03.07.31:134][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.16-03.07.31:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/BlindVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.16-03.07.31:134][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.16-03.07.31:173][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.16-03.07.31:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.16-03.07.31:173][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.16-03.07.31:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/taery/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.16-03.07.31:176][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.16-03.07.31:176][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.16-03.07.31:338][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.16-03.07.31:405][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.16-03.07.31:991][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2020.12.16-03.07.36:192][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.16-03.07.38:090][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.16-03.07.38:090][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.16-03.07.38:090][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.16-03.07.38:090][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.16-03.07.38:098][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.16-03.07.38:524][  0]LogNetVersion: BlindVR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2461011197)
+[2020.12.16-03.07.46:439][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020506A5E980), frame # 0
+[2020.12.16-03.07.46:439][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020506916AC0), frame # 0
+[2020.12.16-03.07.46:449][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020506971C00), frame # 0
+[2020.12.16-03.07.46:833][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.081232 seconds
+[2020.12.16-03.07.46:846][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.12.16-03.07.46:846][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.12.16-03.07.46:846][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.16-03.07.54:097][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.16-03.07.54:167][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.16-03.07.55:617][  0]SourceControl: Source control is disabled
+[2020.12.16-03.07.55:621][  0]SourceControl: Source control is disabled
+[2020.12.16-03.07.55:778][  0]SourceControl: Source control is disabled
+[2020.12.16-03.07.55:844][  0]SourceControl: Source control is disabled
+[2020.12.16-03.07.55:942][  0]SourceControl: Source control is disabled
+[2020.12.16-03.08.00:556][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.16-03.08.00:894][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.16-03.08.00:894][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.16-03.08.01:544][  0]LogOcInput: OculusInput pre-init called
+[2020.12.16-03.08.03:249][  0]LogEngine: Initializing Engine...
+[2020.12.16-03.08.03:275][  0]LogHMD: Oculus plugin initialized. Version: 4.25.4-14469661+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2020.12.16-03.08.03:331][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.015 s
+[2020.12.16-03.08.03:848][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.16-03.08.04:271][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.16-03.08.04:271][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020512D69E00), frame # 0
+[2020.12.16-03.08.04:272][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020512D89F80), frame # 0
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.08.04:446][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.08.04:446][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.08.04:453][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.08.04:453][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.08.04:551][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.08.04:551][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.08.04:609][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.08.04:622][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.08.04:675][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.08.04:675][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.08.04:690][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.08.04:692][  0]LogInit: FAudioDevice initialized.
+[2020.12.16-03.08.04:693][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.16-03.08.04:761][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/taery/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.16-03.08.04:765][  0]LogInit: Texture streaming: Enabled
+[2020.12.16-03.08.05:039][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.16-03.08.05:039][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={7A70A970-4D9E-3496-C4AD-369BE47A5633}
+[2020.12.16-03.08.05:039][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.16-03.08.05:053][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.16-03.08.05:364][  0]LogInit: Transaction tracking system initialized
+[2020.12.16-03.08.05:890][  0]BlueprintLog: New page: Editor Load
+[2020.12.16-03.08.07:850][  0]LocalizationService: Localization service is disabled
+[2020.12.16-03.08.10:309][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/BlindVR/Content/' took 0.02s
+[2020.12.16-03.08.10:309][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.16-03.08.10:309][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.16-03.08.13:722][  0]SourceControl: Source control is disabled
+[2020.12.16-03.08.13:732][  0]LogUnrealEdMisc: Loading editor; pre map load, took 64.106
+[2020.12.16-03.08.13:785][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/BlindVR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.16-03.08.13:793][  0]LogEditorServer: Warning: Can't find file '../../../../../GitHub/BlindVR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-03.08.13:800][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.16-03.08.13:828][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 26.949ms to complete.
+[2020.12.16-03.08.13:828][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.078
+[2020.12.16-03.08.14:501][  0]LogUnrealEdMisc: Total Editor Startup Time, took 64.875
+[2020.12.16-03.08.15:156][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.08.15:165][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.08.15:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.08.15:179][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.08.15:293][  0]LogCollectionManager: Loaded 0 collections in 0.001487 seconds
+[2020.12.16-03.08.15:434][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/BlindVR/Saved/Collections/' took 0.00s
+[2020.12.16-03.08.15:434][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/BlindVR/Content/Developers/Wishes/Collections/' took 0.00s
+[2020.12.16-03.08.15:435][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/BlindVR/Content/Collections/' took 0.00s
+[2020.12.16-03.08.15:435][  0]LogContentBrowser: Native class hierarchy populated in 0.0212 seconds. Added 3432 classes and 826 folders.
+[2020.12.16-03.08.15:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.12.16-03.08.16:303][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.12.16-03.08.16:352][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.12.16-03.08.16:685][  0]LogSlate: Took 0.019235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.16-03.08.16:710][  0]LogSlate: Took 0.010458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.16-03.08.16:750][  0]LogSlate: Took 0.012049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.16-03.08.17:225][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 26 NumSamples 1 (Frame:1).
+[2020.12.16-03.08.17:852][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.12.16-03.08.17:852][  0]LogLoad: (Engine Initialization) Total time: 68.23 seconds
+[2020.12.16-03.08.17:852][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.16-03.08.17:871][  0]LogOcInput: OculusInput is initialized
+[2020.12.16-03.08.18:070][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.16-03.08.18:148][  0]LogSlate: Took 0.008275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.16-03.08.18:198][  1]LogAssetRegistry: Asset discovery search completed in 46.2144 seconds
+[2020.12.16-03.08.18:201][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.12.16-03.10.09:553][826]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.16-03.10.10:773][826]LogBlueprint: Warning: [Compiler BP_MotionController] InputAction Event references unknown Action 'TriggerRight' for  InputAction TriggerRight
+[2020.12.16-03.10.10:774][826]LogBlueprint: Warning: [Compiler BP_MotionController] InputAction Event references unknown Action 'TriggerLeft' for  InputAction TriggerLeft
+[2020.12.16-03.10.10:801][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2020.12.16-03.10.10:801][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2020.12.16-03.10.10:806][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2020.12.16-03.10.10:809][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2020.12.16-03.10.10:812][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2020.12.16-03.10.10:816][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2020.12.16-03.10.10:816][826]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2020.12.16-03.10.12:395][826]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/AITest.AITest
+[2020.12.16-03.10.12:489][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.12.16-03.10.12:491][826]Cmd: MAP LOAD FILE="../../../../../GitHub/BlindVR/Content/ThirdPersonBP/Maps/AITest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.16-03.10.12:491][826]LightingResults: New page: Lighting Build
+[2020.12.16-03.10.12:502][826]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 6 classes and 0 folders.
+[2020.12.16-03.10.12:503][826]LoadErrors: New page: Loading map: AITest.umap
+[2020.12.16-03.10.12:545][826]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.12:553][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.12:554][826]MapCheck: New page: Map Check
+[2020.12.16-03.10.12:554][826]LightingResults: New page: Lighting Build
+[2020.12.16-03.10.12:669][826]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020512D69E00), frame # 826
+[2020.12.16-03.10.12:669][826]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020512D89F80), frame # 826
+[2020.12.16-03.10.12:683][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.12.16-03.10.12:942][826]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.16-03.10.12:942][826]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.10.12:943][826]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002051DE84C00), frame # 826
+[2020.12.16-03.10.12:943][826]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020576CE1300), frame # 826
+[2020.12.16-03.10.12:967][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.12.16-03.10.12:998][826]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.16-03.10.12:999][826]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2020.12.16-03.10.12:999][826]LogFileHelpers: Loading map 'AITest' took 0.508
+[2020.12.16-03.10.17:798][363]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.16-03.10.17:835][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.16-03.10.17:836][363]LogHMD: Initializing OVRPlugin session
+[2020.12.16-03.10.22:612][363]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2020.12.16-03.10.22:632][363]PIE: New page: PIE session: AITest (Dec. 15, 2020, 5:10:22 p.m.)
+[2020.12.16-03.10.22:646][363]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.16-03.10.22:653][363]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.16-03.10.22:653][363]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest
+[2020.12.16-03.10.22:677][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024208s)
+[2020.12.16-03.10.22:680][363]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.10.22:680][363]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020529CF3E00), frame # 1363
+[2020.12.16-03.10.22:680][363]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051E13CF40), frame # 1363
+[2020.12.16-03.10.22:681][363]LogPlayLevel: PIE: World Init took: (0.002453s)
+[2020.12.16-03.10.22:681][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/AITest.AITest to /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest (0.027681s)
+[2020.12.16-03.10.22:689][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.10.22:691][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.10.22:691][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.10.22:692][363]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.10.22:692][363]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.10.22:697][363]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.10.22:697][363]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.10.22:745][363]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.10.22:745][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.10.22:745][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.10.22:746][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.10.22:746][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.10.22:763][363]LogInit: FAudioDevice initialized.
+[2020.12.16-03.10.22:889][363]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.12.16-03.10.22:930][363]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.10.22
+[2020.12.16-03.10.22:965][363]LogWorld: Bringing up level for play took: 0.037155
+[2020.12.16-03.10.22:965][363]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.12.16-03.10.23:013][363]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.12.16-03.10.23:042][363]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.16-03.10.23:043][363]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.12.16-03.10.23:043][363]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.16-03.10.23:043][363]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.12.16-03.10.23:043][363]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.23:043][363]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.12.16-03.10.23:063][363]LogTemp: Warning: All Systems Set
+[2020.12.16-03.10.23:076][363]PIE: Server logged in
+[2020.12.16-03.10.23:077][363]PIE: Play in editor total start time 5.256 seconds.
+[2020.12.16-03.10.23:078][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.10.23:078][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.10.23:079][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.10.23:079][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.10.23:079][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.10.23:079][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.10.23:079][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.10.23:079][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.10.23:080][363]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.10.23:080][363]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.10.23:085][363]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.10.23:085][363]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.10.23:118][363]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.10.23:118][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.10.23:118][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.10.23:118][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.10.23:119][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.10.23:132][363]LogInit: FAudioDevice initialized.
+[2020.12.16-03.10.23:161][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.23:161][363]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.10.23:171][363]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.10.23:171][363]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.10.23:171][363]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.23:185][363]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.10.23:186][363]PIE: Client logged in
+[2020.12.16-03.10.23:188][363]PIE: Play in editor total start time 5.367 seconds.
+[2020.12.16-03.10.23:190][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.10.23:191][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.10.23:191][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.10.23:191][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.10.23:191][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.10.23:191][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.10.23:191][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.10.23:191][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.10.23:192][363]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.10.23:192][363]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.10.23:199][363]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.10.23:199][363]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.10.23:254][363]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.10.23:254][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.10.23:254][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.10.23:254][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.10.23:255][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.10.23:272][363]LogInit: FAudioDevice initialized.
+[2020.12.16-03.10.23:301][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.23:301][363]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.10.23:302][363]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.10.23:303][363]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.10.23:303][363]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.23:303][363]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.10.23:305][363]PIE: Client logged in
+[2020.12.16-03.10.23:307][363]PIE: Play in editor total start time 5.486 seconds.
+[2020.12.16-03.10.23:309][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.10.23:310][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.10.23:310][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.10.23:310][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.10.23:310][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.10.23:310][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.10.23:311][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.10.23:311][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.10.23:311][363]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.10.23:312][363]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.10.23:317][363]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.10.23:318][363]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.10.23:358][363]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.10.23:358][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.10.23:358][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.10.23:359][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.10.23:360][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.10.23:375][363]LogInit: FAudioDevice initialized.
+[2020.12.16-03.10.23:404][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.23:404][363]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.10.23:406][363]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.10.23:406][363]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.10.23:407][363]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.23:407][363]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.10.23:409][363]PIE: Client logged in
+[2020.12.16-03.10.23:410][363]PIE: Play in editor total start time 5.59 seconds.
+[2020.12.16-03.10.23:652][364]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.85, Realtime: 0.23. IpNetDriver_0
+[2020.12.16-03.10.23:653][364]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.85, Realtime: 0.19. IpNetDriver_1
+[2020.12.16-03.10.23:654][364]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.85, Realtime: 0.19. IpNetDriver_2
+[2020.12.16-03.10.23:655][364]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.85, Realtime: 0.19. IpNetDriver_3
+[2020.12.16-03.10.24:204][423]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63684
+[2020.12.16-03.10.24:204][423]LogHandshake: SendConnectChallenge. Timestamp: 6.413919, Cookie: 047137145114066245229094196248062153200193004015180177181251
+[2020.12.16-03.10.24:206][423]LogHandshake: SendChallengeResponse. Timestamp: 6.413919, Cookie: 047137145114066245229094196248062153200193004015180177181251
+[2020.12.16-03.10.24:214][424]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63684
+[2020.12.16-03.10.24:214][424]LogHandshake: SendChallengeAck. InCookie: 047137145114066245229094196248062153200193004015180177181251
+[2020.12.16-03.10.24:215][424]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63684
+[2020.12.16-03.10.24:215][424]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.24:330][424]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:10:24, [UNetConnection] RemoteAddr: 127.0.0.1:63684, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:330][424]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63684, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:331][424]LogNetVersion: BlindVR 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 65461897)
+[2020.12.16-03.10.24:331][424]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:405][425]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.10.24:406][425]LogNet: Remote platform little endian=1
+[2020.12.16-03.10.24:406][425]LogNet: This platform little endian=1
+[2020.12.16-03.10.24:406][425]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63685
+[2020.12.16-03.10.24:406][425]LogHandshake: SendConnectChallenge. Timestamp: 6.615071, Cookie: 196106162025009070236178075203242244237035013195107114175249
+[2020.12.16-03.10.24:407][425]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.12.16-03.10.24:410][425]LogHandshake: SendChallengeResponse. Timestamp: 6.615071, Cookie: 196106162025009070236178075203242244237035013195107114175249
+[2020.12.16-03.10.24:417][426]LogNet: Login request: ?Name=Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A userId: NULL:Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A platform: NULL
+[2020.12.16-03.10.24:418][426]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63685
+[2020.12.16-03.10.24:418][426]LogHandshake: SendChallengeAck. InCookie: 196106162025009070236178075203242244237035013195107114175249
+[2020.12.16-03.10.24:418][426]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63685
+[2020.12.16-03.10.24:419][426]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.24:419][426]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:10:24, [UNetConnection] RemoteAddr: 127.0.0.1:63685, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:419][426]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63685, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:419][426]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63686
+[2020.12.16-03.10.24:419][426]LogHandshake: SendConnectChallenge. Timestamp: 6.626644, Cookie: 000148010052101082059241207091212091243171145139023016182203
+[2020.12.16-03.10.24:420][426]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.10.24:421][426]LogHMD: FSplash::OnShow
+[2020.12.16-03.10.24:421][426]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.10.24:421][426]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.12.16-03.10.24:421][426]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.24:421][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.24:430][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.12.16-03.10.24:471][426]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.10.24:472][426]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002051DBA0A00), frame # 1426
+[2020.12.16-03.10.24:472][426]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051E3CDF80), frame # 1426
+[2020.12.16-03.10.24:475][426]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.10.24
+[2020.12.16-03.10.24:475][426]LogWorld: Bringing up level for play took: 0.002313
+[2020.12.16-03.10.24:476][426]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:478][426]LogHMD: FSplash::OnShow
+[2020.12.16-03.10.24:478][426]LogLoad: Took 0.057011 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.10.24:479][426]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:479][426]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:480][426]LogHMD: FSplash::OnHide
+[2020.12.16-03.10.24:501][426]LogHandshake: SendChallengeResponse. Timestamp: 6.626644, Cookie: 000148010052101082059241207091212091243171145139023016182203
+[2020.12.16-03.10.24:509][427]LogNet: Client netspeed is 10000
+[2020.12.16-03.10.24:509][427]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A?SplitscreenCount=1
+[2020.12.16-03.10.24:509][427]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:518][427]LogNet: Join succeeded: Taeryns-PC-EDE0A73F4
+[2020.12.16-03.10.24:518][427]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.10.24:518][427]LogNet: Remote platform little endian=1
+[2020.12.16-03.10.24:518][427]LogNet: This platform little endian=1
+[2020.12.16-03.10.24:518][427]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63686
+[2020.12.16-03.10.24:518][427]LogHandshake: SendChallengeAck. InCookie: 000148010052101082059241207091212091243171145139023016182203
+[2020.12.16-03.10.24:518][427]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63686
+[2020.12.16-03.10.24:519][427]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.10.24:519][427]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:10:24, [UNetConnection] RemoteAddr: 127.0.0.1:63686, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:519][427]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63686, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:524][427]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.12.16-03.10.24:527][427]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.10.24:533][428]LogNet: Login request: ?Name=Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6 userId: NULL:Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6 platform: NULL
+[2020.12.16-03.10.24:534][428]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.10.24:534][428]LogNet: Remote platform little endian=1
+[2020.12.16-03.10.24:534][428]LogNet: This platform little endian=1
+[2020.12.16-03.10.24:536][428]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.10.24:537][428]LogHMD: FSplash::OnShow
+[2020.12.16-03.10.24:537][428]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.10.24:537][428]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2020.12.16-03.10.24:537][428]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.24:537][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.24:546][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.12.16-03.10.24:559][428]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.10.24:559][428]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002051D59FE00), frame # 1428
+[2020.12.16-03.10.24:560][428]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DD3DF80), frame # 1428
+[2020.12.16-03.10.24:562][428]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.10.24
+[2020.12.16-03.10.24:562][428]LogWorld: Bringing up level for play took: 0.001596
+[2020.12.16-03.10.24:562][428]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:564][428]LogHMD: FSplash::OnShow
+[2020.12.16-03.10.24:564][428]LogLoad: Took 0.027459 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.10.24:564][428]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:565][428]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.12.16-03.10.24:567][428]LogHMD: FSplash::OnHide
+[2020.12.16-03.10.24:593][429]LogNet: Client netspeed is 10000
+[2020.12.16-03.10.24:593][429]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6?SplitscreenCount=1
+[2020.12.16-03.10.24:593][429]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:595][429]LogNet: Join succeeded: Taeryns-PC-2D4DECA94
+[2020.12.16-03.10.24:596][429]LogNet: Login request: ?Name=Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96 userId: NULL:Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96 platform: NULL
+[2020.12.16-03.10.24:597][429]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:599][429]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.10.24:599][429]LogHMD: FSplash::OnShow
+[2020.12.16-03.10.24:599][429]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.10.24:600][429]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2020.12.16-03.10.24:600][429]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.24:600][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.24:608][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.12.16-03.10.24:622][429]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.10.24:622][429]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002058A793E00), frame # 1429
+[2020.12.16-03.10.24:623][429]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DD7A480), frame # 1429
+[2020.12.16-03.10.24:625][429]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_3_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.10.24
+[2020.12.16-03.10.24:625][429]LogWorld: Bringing up level for play took: 0.001767
+[2020.12.16-03.10.24:626][429]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:627][429]LogHMD: FSplash::OnShow
+[2020.12.16-03.10.24:627][429]LogLoad: Took 0.027673 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.10.24:627][429]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:634][430]LogHMD: FSplash::OnHide
+[2020.12.16-03.10.24:672][430]LogNet: Client netspeed is 10000
+[2020.12.16-03.10.24:672][430]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96?SplitscreenCount=1
+[2020.12.16-03.10.24:672][430]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:673][430]LogNet: Join succeeded: Taeryns-PC-E76230264
+[2020.12.16-03.10.24:675][430]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:676][430]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.10.24:848][446]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:849][446]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:872][448]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:882][449]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:883][449]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:895][450]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:908][451]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:923][452]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:960][455]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:974][456]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.24:995][458]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.25:008][459]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.10.36:118][364]LogBlueprintUserMessages: [NPC_2] Client 0: Get Away from me
+[2020.12.16-03.10.36:120][364]LogBlueprintUserMessages: [NPC_2] Client 1: 6 Feet apart please, COVID is still a thing
+[2020.12.16-03.10.36:122][364]LogBlueprintUserMessages: [NPC_2] Client 2: Get Away from me
+[2020.12.16-03.10.36:130][365]LogBlueprintUserMessages: [NPC_2] Server: What are you up too?
+[2020.12.16-03.10.36:198][370]LogBlueprintUserMessages: [NPC_2] Client 0: Hey you
+[2020.12.16-03.10.36:200][370]LogBlueprintUserMessages: [NPC_2] Client 2: Hey you
+[2020.12.16-03.10.36:211][371]LogBlueprintUserMessages: [NPC_2] Server: What are you up too?
+[2020.12.16-03.10.36:214][371]LogBlueprintUserMessages: [NPC_2] Client 1: Why Hello There
+[2020.12.16-03.10.36:226][372]LogBlueprintUserMessages: [NPC_2] Server: 6 Feet apart please, COVID is still a thing
+[2020.12.16-03.10.36:228][372]LogBlueprintUserMessages: [NPC_2] Client 0: Why Hello There
+[2020.12.16-03.10.36:230][372]LogBlueprintUserMessages: [NPC_2] Client 1: 6 Feet apart please, COVID is still a thing
+[2020.12.16-03.10.36:232][372]LogBlueprintUserMessages: [NPC_2] Client 2: What are you up too?
+[2020.12.16-03.10.36:316][378]LogBlueprintUserMessages: [NPC_2] Client 0: Hey you
+[2020.12.16-03.10.36:318][378]LogBlueprintUserMessages: [NPC_2] Client 1: Get Away from me
+[2020.12.16-03.10.36:319][378]LogBlueprintUserMessages: [NPC_2] Client 2: Hey you
+[2020.12.16-03.10.36:333][379]LogBlueprintUserMessages: [NPC_2] Server: Hey you
+[2020.12.16-03.10.36:873][418]LogBlueprintUserMessages: [NPC_2] Client 1: What are you up too?
+[2020.12.16-03.10.40:805][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.40:806][727]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_3_AITest
+[2020.12.16-03.10.40:806][727]LogSlate: Window 'BlindVR Preview [NetMode: Client 4] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.10.40:826][727]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.40:827][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.40:837][727]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2020.12.16-03.10.40:837][727]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2020.12.16-03.10.40:837][727]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96, Channels: 17, Time: 2020.12.16-03.10.40
+[2020.12.16-03.10.40:837][727]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96
+[2020.12.16-03.10.40:841][727]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2020.12.16-03.10.40:850][727]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_2_AITest
+[2020.12.16-03.10.40:850][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.40:851][727]LogSlate: Window 'BlindVR Preview [NetMode: Client 3] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.10.40:853][727]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.40:854][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.40:866][727]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2020.12.16-03.10.40:866][727]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2020.12.16-03.10.40:866][727]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6, Channels: 17, Time: 2020.12.16-03.10.40
+[2020.12.16-03.10.40:867][727]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6
+[2020.12.16-03.10.40:867][727]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2020.12.16-03.10.40:868][727]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_AITest
+[2020.12.16-03.10.40:868][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.40:868][727]LogSlate: Window 'BlindVR Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.10.40:876][727]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.40:877][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.40:889][727]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2020.12.16-03.10.40:889][727]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2020.12.16-03.10.40:889][727]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A, Channels: 17, Time: 2020.12.16-03.10.40
+[2020.12.16-03.10.40:889][727]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A
+[2020.12.16-03.10.40:889][727]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2020.12.16-03.10.40:891][727]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest
+[2020.12.16-03.10.40:892][727]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.12.16-03.10.40:892][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.40:892][727]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.10.40:893][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.40:905][727]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.12.16-03.10.40:905][727]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.12.16-03.10.40:905][727]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63685, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6
+[2020.12.16-03.10.40:905][727]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63685, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6, Channels: 17, Time: 2020.12.16-03.10.40
+[2020.12.16-03.10.40:906][727]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63685, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-2D4DECA949BDBAF67E5C6EB6DC320DB6
+[2020.12.16-03.10.40:906][727]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63684, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A
+[2020.12.16-03.10.40:906][727]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63684, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A, Channels: 17, Time: 2020.12.16-03.10.40
+[2020.12.16-03.10.40:906][727]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63684, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-EDE0A73F4E42C867C45E9DB50D19135A
+[2020.12.16-03.10.40:907][727]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63686, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96
+[2020.12.16-03.10.40:907][727]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63686, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96, Channels: 17, Time: 2020.12.16-03.10.40
+[2020.12.16-03.10.40:907][727]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63686, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-E762302649FEC01C32CD3B929CCE4B96
+[2020.12.16-03.10.40:907][727]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.12.16-03.10.40:909][727]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.16-03.10.40:919][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.10.41:081][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.10.41:124][727]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DD7A480), frame # 2727
+[2020.12.16-03.10.41:124][727]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002058A793E00), frame # 2727
+[2020.12.16-03.10.41:124][727]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DD3DF80), frame # 2727
+[2020.12.16-03.10.41:124][727]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002051D59FE00), frame # 2727
+[2020.12.16-03.10.41:125][727]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051E3CDF80), frame # 2727
+[2020.12.16-03.10.41:125][727]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002051DBA0A00), frame # 2727
+[2020.12.16-03.10.41:125][727]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051E13CF40), frame # 2727
+[2020.12.16-03.10.41:125][727]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020529CF3E00), frame # 2727
+[2020.12.16-03.10.41:126][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.12.16-03.10.41:154][728]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.12.16-03.10.41:154][728]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.12.16-03.10.41:154][728]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.12.16-03.10.41:154][728]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.12.16-03.11.48:012][568]LogEditorViewport: Clicking on Actor (LMB): PluginActorBP_C (PluginActorBP)
+[2020.12.16-03.11.49:614][703]Cmd: DELETE
+[2020.12.16-03.11.49:614][703]Cmd: ACTOR DELETE
+[2020.12.16-03.11.49:690][703]LogEditorActor: Deleted Actor: PluginActorBP_C
+[2020.12.16-03.11.49:699][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.12.16-03.11.49:701][703]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2020.12.16-03.11.50:179][755]LogEditorViewport: Clicking on Actor (LMB): PluginActorBP_C (PluginActorBP2)
+[2020.12.16-03.11.50:347][770]Cmd: DELETE
+[2020.12.16-03.11.50:347][770]Cmd: ACTOR DELETE
+[2020.12.16-03.11.50:350][770]LogEditorActor: Deleted Actor: PluginActorBP_C
+[2020.12.16-03.11.50:358][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.12.16-03.11.50:359][770]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.12.16-03.11.51:284][877]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.16-03.11.51:300][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.16-03.11.51:300][877]LogHMD: Initializing OVRPlugin session
+[2020.12.16-03.11.51:361][877]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2020.12.16-03.11.51:361][877]PIE: New page: PIE session: AITest (Dec. 15, 2020, 5:11:51 p.m.)
+[2020.12.16-03.11.51:361][877]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest
+[2020.12.16-03.11.51:373][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011349s)
+[2020.12.16-03.11.51:374][877]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.11.51:374][877]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002051C950C00), frame # 3877
+[2020.12.16-03.11.51:374][877]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DF93B00), frame # 3877
+[2020.12.16-03.11.51:375][877]LogPlayLevel: PIE: World Init took: (0.001656s)
+[2020.12.16-03.11.51:375][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/AITest.AITest to /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest (0.013410s)
+[2020.12.16-03.11.51:382][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.11.51:384][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.11.51:384][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.11.51:385][877]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.11.51:385][877]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.11.51:389][877]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.11.51:389][877]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.11.51:429][877]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.11.51:429][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.11.51:429][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.11.51:429][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.11.51:430][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.11.51:442][877]LogInit: FAudioDevice initialized.
+[2020.12.16-03.11.51:456][877]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.12.16-03.11.51:459][877]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.11.51
+[2020.12.16-03.11.51:459][877]LogWorld: Bringing up level for play took: 0.002315
+[2020.12.16-03.11.51:460][877]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.12.16-03.11.51:463][877]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.16-03.11.51:463][877]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.12.16-03.11.51:463][877]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.16-03.11.51:464][877]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.12.16-03.11.51:464][877]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.51:464][877]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2020.12.16-03.11.51:464][877]LogTemp: Warning: All Systems Set
+[2020.12.16-03.11.51:464][877]PIE: Server logged in
+[2020.12.16-03.11.51:465][877]PIE: Play in editor total start time 0.165 seconds.
+[2020.12.16-03.11.51:466][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.11.51:467][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.11.51:467][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.11.51:467][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.11.51:467][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.11.51:467][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.11.51:467][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.11.51:467][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.11.51:468][877]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.11.51:468][877]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.11.51:473][877]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.11.51:473][877]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.11.51:502][877]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.11.51:502][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.11.51:502][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.11.51:502][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.11.51:502][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.11.51:505][877]LogInit: FAudioDevice initialized.
+[2020.12.16-03.11.51:528][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.51:528][877]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.11.51:528][877]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.11.51:529][877]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.11.51:529][877]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.51:529][877]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.11.51:531][877]PIE: Client logged in
+[2020.12.16-03.11.51:533][877]PIE: Play in editor total start time 0.234 seconds.
+[2020.12.16-03.11.51:535][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.11.51:535][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.11.51:536][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.11.51:536][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.11.51:536][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.11.51:536][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.11.51:536][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.11.51:536][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.11.51:537][877]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.11.51:537][877]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.11.51:543][877]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.11.51:543][877]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.11.51:581][877]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.11.51:581][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.11.51:581][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.11.51:581][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.11.51:582][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.11.51:594][877]LogInit: FAudioDevice initialized.
+[2020.12.16-03.11.51:618][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.51:618][877]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.11.51:619][877]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.11.51:620][877]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.11.51:620][877]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.51:620][877]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.11.51:622][877]PIE: Client logged in
+[2020.12.16-03.11.51:624][877]PIE: Play in editor total start time 0.325 seconds.
+[2020.12.16-03.11.51:626][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.11.51:626][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.11.51:626][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.11.51:627][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.11.51:627][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.11.51:627][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.11.51:627][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.11.51:627][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.11.51:628][877]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.11.51:628][877]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.11.51:634][877]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.11.51:634][877]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.11.51:670][877]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.11.51:670][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.11.51:670][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.11.51:670][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.11.51:671][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.11.51:683][877]LogInit: FAudioDevice initialized.
+[2020.12.16-03.11.51:709][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.51:709][877]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.11.51:709][877]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.11.51:710][877]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.11.51:711][877]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.51:711][877]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.11.51:713][877]PIE: Client logged in
+[2020.12.16-03.11.51:715][877]PIE: Play in editor total start time 0.415 seconds.
+[2020.12.16-03.11.52:546][958]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64656
+[2020.12.16-03.11.52:547][958]LogHandshake: SendConnectChallenge. Timestamp: 1.270222, Cookie: 079033218084236013074021252026246111214014154249136222164238
+[2020.12.16-03.11.52:547][958]LogHandshake: SendChallengeResponse. Timestamp: 1.270222, Cookie: 079033218084236013074021252026246111214014154249136222164238
+[2020.12.16-03.11.52:555][959]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64656
+[2020.12.16-03.11.52:555][959]LogHandshake: SendChallengeAck. InCookie: 079033218084236013074021252026246111214014154249136222164238
+[2020.12.16-03.11.52:555][959]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64656
+[2020.12.16-03.11.52:556][959]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.52:556][959]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:11:52, [UNetConnection] RemoteAddr: 127.0.0.1:64656, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:556][959]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64656, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:557][959]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:563][960]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.11.52:563][960]LogNet: Remote platform little endian=1
+[2020.12.16-03.11.52:563][960]LogNet: This platform little endian=1
+[2020.12.16-03.11.52:565][960]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.12.16-03.11.52:572][961]LogNet: Login request: ?Name=Taeryns-PC-C60D32E64705B0C1F296EA929901068C userId: NULL:Taeryns-PC-C60D32E64705B0C1F296EA929901068C platform: NULL
+[2020.12.16-03.11.52:573][961]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.11.52:574][961]LogHMD: FSplash::OnShow
+[2020.12.16-03.11.52:574][961]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.11.52:574][961]LogWorld: BeginTearingDown for /Temp/Untitled_4
+[2020.12.16-03.11.52:574][961]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.52:574][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.52:582][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.12.16-03.11.52:596][961]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.11.52:596][961]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020529FC1E00), frame # 3961
+[2020.12.16-03.11.52:596][961]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DF23C40), frame # 3961
+[2020.12.16-03.11.52:598][961]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.11.52
+[2020.12.16-03.11.52:599][961]LogWorld: Bringing up level for play took: 0.001504
+[2020.12.16-03.11.52:599][961]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:603][961]LogHMD: FSplash::OnShow
+[2020.12.16-03.11.52:603][961]LogLoad: Took 0.029103 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.11.52:603][961]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:604][961]LogHMD: FSplash::OnHide
+[2020.12.16-03.11.52:628][962]LogNet: Client netspeed is 10000
+[2020.12.16-03.11.52:628][962]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-C60D32E64705B0C1F296EA929901068C?SplitscreenCount=1
+[2020.12.16-03.11.52:629][962]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.52:631][962]LogNet: Join succeeded: Taeryns-PC-C60D32E64
+[2020.12.16-03.11.52:640][963]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64657
+[2020.12.16-03.11.52:640][963]LogHandshake: SendConnectChallenge. Timestamp: 1.363705, Cookie: 238233013025213036144102222048047242187233144141243197163129
+[2020.12.16-03.11.52:642][963]LogHandshake: SendChallengeResponse. Timestamp: 1.363705, Cookie: 238233013025213036144102222048047242187233144141243197163129
+[2020.12.16-03.11.52:648][964]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64657
+[2020.12.16-03.11.52:649][964]LogHandshake: SendChallengeAck. InCookie: 238233013025213036144102222048047242187233144141243197163129
+[2020.12.16-03.11.52:649][964]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64657
+[2020.12.16-03.11.52:649][964]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.52:649][964]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:11:52, [UNetConnection] RemoteAddr: 127.0.0.1:64657, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:649][964]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64657, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:651][964]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_6, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:656][965]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.11.52:656][965]LogNet: Remote platform little endian=1
+[2020.12.16-03.11.52:657][965]LogNet: This platform little endian=1
+[2020.12.16-03.11.52:658][965]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.12.16-03.11.52:665][966]LogNet: Login request: ?Name=Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC userId: NULL:Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC platform: NULL
+[2020.12.16-03.11.52:667][966]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.11.52:670][966]LogHMD: FSplash::OnShow
+[2020.12.16-03.11.52:670][966]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.11.52:670][966]LogWorld: BeginTearingDown for /Temp/Untitled_5
+[2020.12.16-03.11.52:671][966]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.52:671][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.52:679][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.12.16-03.11.52:694][966]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.11.52:694][966]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020529D08A00), frame # 3966
+[2020.12.16-03.11.52:694][966]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DD0C900), frame # 3966
+[2020.12.16-03.11.52:697][966]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.11.52
+[2020.12.16-03.11.52:697][966]LogWorld: Bringing up level for play took: 0.001659
+[2020.12.16-03.11.52:698][966]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:699][966]LogHMD: FSplash::OnShow
+[2020.12.16-03.11.52:699][966]LogLoad: Took 0.028970 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.11.52:700][966]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:700][966]LogHMD: FSplash::OnHide
+[2020.12.16-03.11.52:725][967]LogNet: Client netspeed is 10000
+[2020.12.16-03.11.52:725][967]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC?SplitscreenCount=1
+[2020.12.16-03.11.52:726][967]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.52:727][967]LogBlueprintUserMessages: [NPC_2] Server: 6 Feet apart please, COVID is still a thing
+[2020.12.16-03.11.52:727][967]LogNet: Join succeeded: Taeryns-PC-ACEE366E4
+[2020.12.16-03.11.52:729][967]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:737][968]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64658
+[2020.12.16-03.11.52:737][968]LogHandshake: SendConnectChallenge. Timestamp: 1.460577, Cookie: 054027089011061160156050215225237244214241151206237030069233
+[2020.12.16-03.11.52:739][968]LogHandshake: SendChallengeResponse. Timestamp: 1.460577, Cookie: 054027089011061160156050215225237244214241151206237030069233
+[2020.12.16-03.11.52:746][969]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64658
+[2020.12.16-03.11.52:746][969]LogHandshake: SendChallengeAck. InCookie: 054027089011061160156050215225237244214241151206237030069233
+[2020.12.16-03.11.52:746][969]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64658
+[2020.12.16-03.11.52:747][969]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.11.52:747][969]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:11:52, [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:747][969]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:749][969]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.11.52:755][970]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.11.52:756][970]LogNet: Remote platform little endian=1
+[2020.12.16-03.11.52:756][970]LogNet: This platform little endian=1
+[2020.12.16-03.11.52:759][970]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.12.16-03.11.52:767][971]LogNet: Login request: ?Name=Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB userId: NULL:Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB platform: NULL
+[2020.12.16-03.11.52:769][971]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.11.52:770][971]LogHMD: FSplash::OnShow
+[2020.12.16-03.11.52:770][971]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.11.52:771][971]LogWorld: BeginTearingDown for /Temp/Untitled_6
+[2020.12.16-03.11.52:771][971]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.52:771][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.52:780][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.12.16-03.11.52:793][971]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.11.52:793][971]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020535DE9800), frame # 3971
+[2020.12.16-03.11.52:794][971]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DD5D6C0), frame # 3971
+[2020.12.16-03.11.52:796][971]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_3_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.11.52
+[2020.12.16-03.11.52:796][971]LogWorld: Bringing up level for play took: 0.001794
+[2020.12.16-03.11.52:797][971]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:799][971]LogHMD: FSplash::OnShow
+[2020.12.16-03.11.52:799][971]LogLoad: Took 0.028622 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.11.52:799][971]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:805][972]LogHMD: FSplash::OnHide
+[2020.12.16-03.11.52:829][972]LogNet: Client netspeed is 10000
+[2020.12.16-03.11.52:829][972]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB?SplitscreenCount=1
+[2020.12.16-03.11.52:830][972]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.52:831][972]LogBlueprintUserMessages: [NPC_2] Server: Hey you
+[2020.12.16-03.11.52:831][972]LogNet: Join succeeded: Taeryns-PC-6D83A3F24
+[2020.12.16-03.11.52:833][972]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:833][972]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.11.52:918][980]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.52:954][983]LogBlueprintUserMessages: [NPC_2] Server: Hey you
+[2020.12.16-03.11.52:957][983]LogBlueprintUserMessages: [NPC_2] Client 0: Get Away from me
+[2020.12.16-03.11.52:972][984]LogBlueprintUserMessages: [NPC_2] Client 1: Get Away from me
+[2020.12.16-03.11.53:007][987]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:027][989]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:039][990]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:050][991]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:093][995]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:657][ 44]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:659][ 44]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:683][ 46]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:684][ 46]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.53:693][ 47]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.11.54:386][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.54:386][ 98]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_3_AITest
+[2020.12.16-03.11.54:387][ 98]LogSlate: Window 'BlindVR Preview [NetMode: Client 4] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.11.54:389][ 98]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.54:390][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.54:401][ 98]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2020.12.16-03.11.54:401][ 98]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2020.12.16-03.11.54:402][ 98]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB, Channels: 16, Time: 2020.12.16-03.11.54
+[2020.12.16-03.11.54:402][ 98]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB
+[2020.12.16-03.11.54:402][ 98]LogExit: GameNetDriver IpNetDriver_7 shut down
+[2020.12.16-03.11.54:403][ 98]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_2_AITest
+[2020.12.16-03.11.54:403][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.54:404][ 98]LogSlate: Window 'BlindVR Preview [NetMode: Client 3] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.11.54:406][ 98]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.54:407][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.54:416][ 98]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2020.12.16-03.11.54:416][ 98]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2020.12.16-03.11.54:416][ 98]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC, Channels: 15, Time: 2020.12.16-03.11.54
+[2020.12.16-03.11.54:416][ 98]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC
+[2020.12.16-03.11.54:416][ 98]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2020.12.16-03.11.54:418][ 98]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_AITest
+[2020.12.16-03.11.54:418][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.54:418][ 98]LogSlate: Window 'BlindVR Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.11.54:420][ 98]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.54:421][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.54:431][ 98]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2020.12.16-03.11.54:431][ 98]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2020.12.16-03.11.54:431][ 98]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-C60D32E64705B0C1F296EA929901068C, Channels: 16, Time: 2020.12.16-03.11.54
+[2020.12.16-03.11.54:431][ 98]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-C60D32E64705B0C1F296EA929901068C
+[2020.12.16-03.11.54:431][ 98]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2020.12.16-03.11.54:433][ 98]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest
+[2020.12.16-03.11.54:433][ 98]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.12.16-03.11.54:433][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.54:434][ 98]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.11.54:434][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.54:446][ 98]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2020.12.16-03.11.54:446][ 98]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2020.12.16-03.11.54:447][ 98]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB
+[2020.12.16-03.11.54:447][ 98]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB, Channels: 16, Time: 2020.12.16-03.11.54
+[2020.12.16-03.11.54:447][ 98]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-6D83A3F24E4B7A65D0C11CBE07F407FB
+[2020.12.16-03.11.54:447][ 98]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64656, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-C60D32E64705B0C1F296EA929901068C
+[2020.12.16-03.11.54:447][ 98]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64656, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-C60D32E64705B0C1F296EA929901068C, Channels: 16, Time: 2020.12.16-03.11.54
+[2020.12.16-03.11.54:447][ 98]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64656, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-C60D32E64705B0C1F296EA929901068C
+[2020.12.16-03.11.54:448][ 98]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64657, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC
+[2020.12.16-03.11.54:448][ 98]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64657, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC, Channels: 15, Time: 2020.12.16-03.11.54
+[2020.12.16-03.11.54:448][ 98]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64657, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-ACEE366E420A2B3A1CCFF8B7282570AC
+[2020.12.16-03.11.54:448][ 98]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2020.12.16-03.11.54:449][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.16-03.11.54:451][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.11.54:627][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.11.54:630][ 98]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DD5D6C0), frame # 4098
+[2020.12.16-03.11.54:630][ 98]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020535DE9800), frame # 4098
+[2020.12.16-03.11.54:630][ 98]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DD0C900), frame # 4098
+[2020.12.16-03.11.54:630][ 98]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020529D08A00), frame # 4098
+[2020.12.16-03.11.54:630][ 98]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DF23C40), frame # 4098
+[2020.12.16-03.11.54:631][ 98]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020529FC1E00), frame # 4098
+[2020.12.16-03.11.54:631][ 98]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DF93B00), frame # 4098
+[2020.12.16-03.11.54:631][ 98]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002051C950C00), frame # 4098
+[2020.12.16-03.11.54:632][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.12.16-03.11.54:681][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.12.16-03.11.54:682][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.12.16-03.11.54:682][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.12.16-03.11.54:682][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.12.16-03.12.26:533][705]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.16-03.12.26:550][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.16-03.12.26:550][705]LogHMD: Initializing OVRPlugin session
+[2020.12.16-03.12.26:616][705]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2020.12.16-03.12.26:616][705]PIE: New page: PIE session: AITest (Dec. 15, 2020, 5:12:26 p.m.)
+[2020.12.16-03.12.26:616][705]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest
+[2020.12.16-03.12.26:629][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012432s)
+[2020.12.16-03.12.26:630][705]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.12.26:630][705]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000205997C3E00), frame # 7705
+[2020.12.16-03.12.26:631][705]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051D311BC0), frame # 7705
+[2020.12.16-03.12.26:631][705]LogPlayLevel: PIE: World Init took: (0.002104s)
+[2020.12.16-03.12.26:631][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/AITest.AITest to /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest (0.014979s)
+[2020.12.16-03.12.26:639][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.12.16-03.12.26:641][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.12.26:641][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.12.26:641][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.12.26:642][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.12.26:642][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.12.26:642][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.12.26:642][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.12.26:642][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.12.26:642][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.12.26:642][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.12.26:647][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.12.26:648][705]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.12.26:679][705]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.12.26:679][705]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.12.26:679][705]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.12.26:679][705]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.12.26:680][705]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.12.26:691][705]LogInit: FAudioDevice initialized.
+[2020.12.16-03.12.26:702][705]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.12.16-03.12.26:704][705]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.12.26
+[2020.12.16-03.12.26:705][705]LogWorld: Bringing up level for play took: 0.002321
+[2020.12.16-03.12.26:705][705]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.12.16-03.12.26:708][705]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.16-03.12.26:708][705]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.12.16-03.12.26:708][705]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.16-03.12.26:708][705]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.12.16-03.12.26:709][705]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.26:709][705]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2020.12.16-03.12.26:709][705]LogTemp: Warning: All Systems Set
+[2020.12.16-03.12.26:709][705]PIE: Server logged in
+[2020.12.16-03.12.26:710][705]PIE: Play in editor total start time 0.16 seconds.
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.12.26:712][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.12.26:712][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.12.26:713][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.12.26:713][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.12.26:718][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.12.26:718][705]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.12.26:746][705]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.12.26:747][705]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.12.26:747][705]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.12.26:747][705]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.12.26:747][705]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.12.26:759][705]LogInit: FAudioDevice initialized.
+[2020.12.16-03.12.26:786][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.26:786][705]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.12.26:787][705]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.12.26:787][705]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.12.26:787][705]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.26:787][705]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.12.26:789][705]PIE: Client logged in
+[2020.12.16-03.12.26:790][705]PIE: Play in editor total start time 0.241 seconds.
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.12.26:793][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.12.26:794][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.12.26:794][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.12.26:794][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.12.26:800][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.12.26:800][705]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.12.26:840][705]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.12.26:840][705]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.12.26:840][705]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.12.26:840][705]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.12.26:841][705]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.12.26:854][705]LogInit: FAudioDevice initialized.
+[2020.12.16-03.12.26:883][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.26:884][705]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.12.26:884][705]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.12.26:885][705]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.12.26:885][705]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.26:886][705]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.12.26:888][705]PIE: Client logged in
+[2020.12.16-03.12.26:890][705]PIE: Play in editor total start time 0.34 seconds.
+[2020.12.16-03.12.26:892][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-03.12.26:893][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-03.12.26:893][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-03.12.26:893][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-03.12.26:893][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-03.12.26:893][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-03.12.26:893][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-03.12.26:894][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-03.12.26:894][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-03.12.26:895][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-03.12.26:901][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-03.12.26:901][705]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-03.12.26:933][705]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2020.12.16-03.12.26:933][705]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-03.12.26:933][705]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-03.12.26:934][705]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-03.12.26:935][705]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-03.12.26:946][705]LogInit: FAudioDevice initialized.
+[2020.12.16-03.12.26:972][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.26:973][705]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2020.12.16-03.12.26:973][705]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.12.16-03.12.26:974][705]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.12.16-03.12.26:975][705]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.26:975][705]LogNet: Game client on port 17777, rate 10000
+[2020.12.16-03.12.26:977][705]PIE: Client logged in
+[2020.12.16-03.12.26:978][705]PIE: Play in editor total start time 0.429 seconds.
+[2020.12.16-03.12.27:799][774]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63157
+[2020.12.16-03.12.27:800][774]LogHandshake: SendConnectChallenge. Timestamp: 1.274788, Cookie: 007196130027057136212021171152025060211090089209144114145169
+[2020.12.16-03.12.27:802][774]LogHandshake: SendChallengeResponse. Timestamp: 1.274788, Cookie: 007196130027057136212021171152025060211090089209144114145169
+[2020.12.16-03.12.27:809][775]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63157
+[2020.12.16-03.12.27:809][775]LogHandshake: SendChallengeAck. InCookie: 007196130027057136212021171152025060211090089209144114145169
+[2020.12.16-03.12.27:809][775]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63157
+[2020.12.16-03.12.27:810][775]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.27:810][775]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:12:27, [UNetConnection] RemoteAddr: 127.0.0.1:63157, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.27:810][775]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63157, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.27:811][775]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.27:819][776]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.12.27:819][776]LogNet: Remote platform little endian=1
+[2020.12.16-03.12.27:819][776]LogNet: This platform little endian=1
+[2020.12.16-03.12.27:821][776]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.12.16-03.12.27:829][777]LogNet: Login request: ?Name=Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78 userId: NULL:Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78 platform: NULL
+[2020.12.16-03.12.27:830][777]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.12.27:831][777]LogHMD: FSplash::OnShow
+[2020.12.16-03.12.27:832][777]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.12.27:832][777]LogWorld: BeginTearingDown for /Temp/Untitled_7
+[2020.12.16-03.12.27:832][777]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.27:832][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.27:842][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.12.16-03.12.27:856][777]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.12.27:856][777]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020529977C00), frame # 7777
+[2020.12.16-03.12.27:856][777]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020598BAA0C0), frame # 7777
+[2020.12.16-03.12.27:859][777]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.12.27
+[2020.12.16-03.12.27:859][777]LogWorld: Bringing up level for play took: 0.001586
+[2020.12.16-03.12.27:859][777]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.27:862][777]LogHMD: FSplash::OnShow
+[2020.12.16-03.12.27:863][777]LogLoad: Took 0.030973 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.12.27:863][777]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.27:864][777]LogHMD: FSplash::OnHide
+[2020.12.16-03.12.27:898][778]LogNet: Client netspeed is 10000
+[2020.12.16-03.12.27:898][778]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78?SplitscreenCount=1
+[2020.12.16-03.12.27:898][778]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.27:901][778]LogNet: Join succeeded: Taeryns-PC-BB924DEB4
+[2020.12.16-03.12.27:912][779]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63158
+[2020.12.16-03.12.27:912][779]LogHandshake: SendConnectChallenge. Timestamp: 1.386557, Cookie: 201140210205037026098238112010088000249191054076100081071129
+[2020.12.16-03.12.27:914][779]LogHandshake: SendChallengeResponse. Timestamp: 1.386557, Cookie: 201140210205037026098238112010088000249191054076100081071129
+[2020.12.16-03.12.27:922][780]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63158
+[2020.12.16-03.12.27:922][780]LogHandshake: SendChallengeAck. InCookie: 201140210205037026098238112010088000249191054076100081071129
+[2020.12.16-03.12.27:923][780]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63158
+[2020.12.16-03.12.27:923][780]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.27:923][780]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:12:27, [UNetConnection] RemoteAddr: 127.0.0.1:63158, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.27:923][780]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63158, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.27:926][780]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: PendingNetDriver IpNetDriver_10, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.27:933][781]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.12.27:934][781]LogNet: Remote platform little endian=1
+[2020.12.16-03.12.27:934][781]LogNet: This platform little endian=1
+[2020.12.16-03.12.27:936][781]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.12.16-03.12.27:946][782]LogNet: Login request: ?Name=Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4 userId: NULL:Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4 platform: NULL
+[2020.12.16-03.12.27:948][782]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.12.27:948][782]LogHMD: FSplash::OnShow
+[2020.12.16-03.12.27:949][782]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.12.27:949][782]LogWorld: BeginTearingDown for /Temp/Untitled_8
+[2020.12.16-03.12.27:949][782]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.27:949][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.27:958][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.12.16-03.12.27:973][782]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.12.27:973][782]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020535388800), frame # 7782
+[2020.12.16-03.12.27:973][782]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DD7A480), frame # 7782
+[2020.12.16-03.12.27:977][782]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.12.27
+[2020.12.16-03.12.27:977][782]LogWorld: Bringing up level for play took: 0.002705
+[2020.12.16-03.12.27:978][782]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.27:978][782]LogHMD: FSplash::OnShow
+[2020.12.16-03.12.27:978][782]LogLoad: Took 0.029574 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.12.27:978][782]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.27:979][782]LogHMD: FSplash::OnHide
+[2020.12.16-03.12.28:006][783]LogNet: Client netspeed is 10000
+[2020.12.16-03.12.28:006][783]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4?SplitscreenCount=1
+[2020.12.16-03.12.28:006][783]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:008][783]LogNet: Join succeeded: Taeryns-PC-E4C819504
+[2020.12.16-03.12.28:009][783]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63159
+[2020.12.16-03.12.28:009][783]LogHandshake: SendConnectChallenge. Timestamp: 1.479965, Cookie: 051218079194165194121139159228247182185226082215013228077117
+[2020.12.16-03.12.28:010][783]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.28:012][783]LogHandshake: SendChallengeResponse. Timestamp: 1.479965, Cookie: 051218079194165194121139159228247182185226082215013228077117
+[2020.12.16-03.12.28:020][784]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63159
+[2020.12.16-03.12.28:020][784]LogHandshake: SendChallengeAck. InCookie: 051218079194165194121139159228247182185226082215013228077117
+[2020.12.16-03.12.28:020][784]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63159
+[2020.12.16-03.12.28:021][784]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.12.16-03.12.28:021][784]LogNet: NotifyAcceptedConnection: Name: AITest, TimeStamp: 12/15/20 22:12:28, [UNetConnection] RemoteAddr: 127.0.0.1:63159, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.28:021][784]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63159, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.28:024][784]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.16-03.12.28:031][785]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest.AITest: Accepted
+[2020.12.16-03.12.28:031][785]LogNet: Remote platform little endian=1
+[2020.12.16-03.12.28:032][785]LogNet: This platform little endian=1
+[2020.12.16-03.12.28:033][785]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.12.16-03.12.28:044][786]LogNet: Login request: ?Name=Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146 userId: NULL:Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146 platform: NULL
+[2020.12.16-03.12.28:046][786]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2020.12.16-03.12.28:046][786]LogHMD: FSplash::OnShow
+[2020.12.16-03.12.28:047][786]LogLoad: LoadMap: 127.0.0.1:17777/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2020.12.16-03.12.28:047][786]LogWorld: BeginTearingDown for /Temp/Untitled_9
+[2020.12.16-03.12.28:047][786]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.28:047][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.28:056][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.12.16-03.12.28:070][786]LogAIModule: Creating AISystem for world AITest
+[2020.12.16-03.12.28:070][786]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002058DDB3E00), frame # 7786
+[2020.12.16-03.12.28:070][786]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002051DC4FC40), frame # 7786
+[2020.12.16-03.12.28:073][786]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_3_AITest.AITest up for play (max tick rate 0) at 2020.12.15-22.12.28
+[2020.12.16-03.12.28:073][786]LogWorld: Bringing up level for play took: 0.002179
+[2020.12.16-03.12.28:074][786]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.28:075][786]LogHMD: FSplash::OnShow
+[2020.12.16-03.12.28:076][786]LogLoad: Took 0.029024 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_AITest)
+[2020.12.16-03.12.28:076][786]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.28:085][787]LogHMD: FSplash::OnHide
+[2020.12.16-03.12.28:107][787]LogNet: Client netspeed is 10000
+[2020.12.16-03.12.28:107][787]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146?SplitscreenCount=1
+[2020.12.16-03.12.28:108][787]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:109][787]LogNet: Join succeeded: Taeryns-PC-7E8D9BE64
+[2020.12.16-03.12.28:110][787]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.28:111][787]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.12.16-03.12.28:243][799]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:244][799]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:268][801]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:278][802]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:293][803]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:305][804]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:318][805]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:329][806]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:330][806]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:352][808]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:375][810]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.28:398][812]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.12.16-03.12.30:045][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.30:046][934]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_3_AITest
+[2020.12.16-03.12.30:046][934]LogSlate: Window 'BlindVR Preview [NetMode: Client 4] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.12.30:048][934]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.30:049][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.30:058][934]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2020.12.16-03.12.30:058][934]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2020.12.16-03.12.30:058][934]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146, Channels: 16, Time: 2020.12.16-03.12.30
+[2020.12.16-03.12.30:058][934]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146
+[2020.12.16-03.12.30:058][934]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2020.12.16-03.12.30:060][934]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_2_AITest
+[2020.12.16-03.12.30:060][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.30:060][934]LogSlate: Window 'BlindVR Preview [NetMode: Client 3] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.12.30:063][934]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.30:064][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.30:073][934]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2020.12.16-03.12.30:073][934]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2020.12.16-03.12.30:074][934]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4, Channels: 16, Time: 2020.12.16-03.12.30
+[2020.12.16-03.12.30:074][934]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_10, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4
+[2020.12.16-03.12.30:074][934]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2020.12.16-03.12.30:076][934]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_1_AITest
+[2020.12.16-03.12.30:076][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.30:076][934]LogSlate: Window 'BlindVR Preview [NetMode: Client 2] (64-bit/Windows) ' being destroyed
+[2020.12.16-03.12.30:079][934]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.30:080][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.30:089][934]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2020.12.16-03.12.30:089][934]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2020.12.16-03.12.30:089][934]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78, Channels: 16, Time: 2020.12.16-03.12.30
+[2020.12.16-03.12.30:089][934]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78
+[2020.12.16-03.12.30:089][934]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2020.12.16-03.12.30:091][934]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_AITest
+[2020.12.16-03.12.30:091][934]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.12.16-03.12.30:092][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.30:092][934]LogWorld: UWorld::CleanupWorld for AITest, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-03.12.30:093][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.30:103][934]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2020.12.16-03.12.30:103][934]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2020.12.16-03.12.30:103][934]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63158, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4
+[2020.12.16-03.12.30:104][934]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63158, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4, Channels: 16, Time: 2020.12.16-03.12.30
+[2020.12.16-03.12.30:104][934]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63158, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_2, Owner: PlayerController_2, UniqueId: NULL:Taeryns-PC-E4C8195040D51E465B0FFF85E5DAFBA4
+[2020.12.16-03.12.30:104][934]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63157, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78
+[2020.12.16-03.12.30:104][934]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63157, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78, Channels: 16, Time: 2020.12.16-03.12.30
+[2020.12.16-03.12.30:104][934]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63157, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:Taeryns-PC-BB924DEB4968F708026A6A8D25B8BD78
+[2020.12.16-03.12.30:104][934]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63159, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146
+[2020.12.16-03.12.30:104][934]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63159, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146, Channels: 16, Time: 2020.12.16-03.12.30
+[2020.12.16-03.12.30:104][934]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63159, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_3, Owner: PlayerController_3, UniqueId: NULL:Taeryns-PC-7E8D9BE64A3796386DC5E4A99FA42146
+[2020.12.16-03.12.30:105][934]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2020.12.16-03.12.30:107][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.16-03.12.30:108][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-03.12.30:298][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-03.12.30:300][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DC4FC40), frame # 7934
+[2020.12.16-03.12.30:300][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002058DDB3E00), frame # 7934
+[2020.12.16-03.12.30:300][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051DD7A480), frame # 7934
+[2020.12.16-03.12.30:300][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020535388800), frame # 7934
+[2020.12.16-03.12.30:301][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002051D311BC0), frame # 7934
+[2020.12.16-03.12.30:301][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000205997C3E00), frame # 7934
+[2020.12.16-03.12.30:301][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020598BAA0C0), frame # 7934
+[2020.12.16-03.12.30:301][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020529977C00), frame # 7934
+[2020.12.16-03.12.30:302][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.12.16-03.12.30:353][935]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.12.16-03.12.30:353][935]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.12.16-03.12.30:353][935]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.12.16-03.12.30:353][935]LogPlayLevel: Display: Destroying online subsystem :Context_10

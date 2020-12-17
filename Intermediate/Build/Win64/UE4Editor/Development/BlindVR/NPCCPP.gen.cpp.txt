@@ -6,4 +6,24 @@ D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Char
 D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFrameWork/CharacterMovementComponent.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Public\AI/RVOAvoidanceInterface.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RVOAvoidanceInterface.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 D:\GitHub\BlindVR\Intermediate\Build\Win64\UE4Editor\Inc\BlindVR\NPCCPP.generated.h

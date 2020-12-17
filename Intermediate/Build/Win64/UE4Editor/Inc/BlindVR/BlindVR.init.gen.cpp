@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBlindVR_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xDAAA41A3,
+				0x33075832,
 				0xEE561C4F,
 				METADATA_PARAMS(nullptr, 0)
 			};

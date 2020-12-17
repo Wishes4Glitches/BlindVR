@@ -30,8 +30,11 @@ void APluginActor::Tick(float DeltaTime)
 
 	root->SetWorldRotation(player->GetActorRotation());
 
-	actorDistance.Z = player->GetActorLocation().Z;
+	//actorDistance.Z = player->GetActorLocation().Z;
+	actorDistance = FVector(root->GetComponentLocation().X, root->GetComponentLocation().Y, player->GetActorLocation().Z);
 
 	root->SetWorldLocation(actorDistance);
+
+	bReplicates = true;
 }
 

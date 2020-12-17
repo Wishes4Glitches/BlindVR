@@ -35,6 +35,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rotation")
 	FRotator lookAtRot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rotation")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Position")
 	FVector actorDistance;
 };
